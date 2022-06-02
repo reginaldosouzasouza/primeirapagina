@@ -19,7 +19,7 @@ body {
    background:url("https://images.vexels.com/media/users/3/222147/raw/da3de7b089120cbe4deadf427fa70b68-desenho-de-fundo-de-espigas-de-trigo.jpg?w=1800&fmt=webp");
    
    text-align: justify;
-   text-indent: ;
+   text-align: center;
    
 }
  header {
@@ -28,6 +28,7 @@ body {
     padding-top: 0px; /*neste caso quando colocou o paadin ele se afastou do topo*/
     /*box-shadow: 0px 0px 10px rgba(0,0,0.705);  /*sombra dos lados*/
    /* border-radius: 10px; /* borda nos cantos arrendondados*/
+
  }
 
 
@@ -35,7 +36,7 @@ header > h1 {
     
   color: brown;
   font-family: 'fontep2', Arial, Helvetica, sans-serif;
-   font-size: 16rem;
+   font-size: 8rem; /*letre mana tava 16rem vou deixar com 8*/
    margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
   /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
    
@@ -43,7 +44,7 @@ header > h1 {
 header h2 {
     color:black;
     font-family: Arial, Helvetica, sans-serif;
-   font-size: 4rem;
+   font-size: 2rem;
    text-align: center;
    margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
   /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
@@ -52,7 +53,7 @@ header h2 {
 header h3 {
     color:black;
     font-family: Arial, Helvetica, sans-serif;
-   font-size: 1rem;
+   font-size: 2rem;
    text-align: center;
    margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
   /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
@@ -83,6 +84,7 @@ header >.contatos {
 
        
   nav {
+      
     background-color:rgba(97, 163, 35, 0.555);
     padding: 0px;
     box-shadow: 0px 7px 7px rgba(0,0,0.192);
@@ -122,6 +124,31 @@ header >.contatos {
         font-weight: bolder;
         margin-top:30PX; 
     }
+
+    @media screen and (max-width:480px) {
+        body {
+            max-width:480px;
+           
+            
+
+        }
+        
+    }
+    @media screen and (max-width:480px) {
+      header {
+            max-width:480px;
+
+
+        }
+    }
+
+    @media screen and (max-width:480px) {
+        nav {
+              max-width:480px;
+              
+  
+          }
+      }
      
              
     
