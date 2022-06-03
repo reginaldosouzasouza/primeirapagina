@@ -1,0 +1,250 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+@font-face {
+   font-family: fontelogo ;
+   src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+        body {
+           font-family: arial, sans-serif;
+          /* background-color: black; deste jeito o fundo fica todo preto */
+           color: rgba(0,0,0,1);
+           
+            
+        }
+        div#interface {
+           width: 800px; /*define a largura do site*/
+           /*background-color:darkgray ;cor de fundo do site da interface*/
+           margin: -410px 10px 10px 10px;
+           padding: 400px;
+        }
+        p {
+           font-style: normal;
+        }       
+           
+       
+
+           header#cabecalho img#icone {
+           position:absolute;
+           left: 1250px; /*esquerda puxa para direita*/
+           top: 80px; /*para cima*/
+       }
+          header#cabecalho {
+            border-bottom: 5px seagreen solid;/* borda inferior ** primeiro item é o tipo de borda mais fina ou mais grossa o segundo é a cor da borda e o terceiro é a consistencia da borda*/
+          height: 200px; /* comando movimenta para baixo, quanto maior mais baixo*/
+          background: url("../_imagens/gfggg.png") no-repeat 0px 130px;/*este comado é também para deslocamento da imagem, primeiro lateral e segundo vertical*/
+          }
+
+          header#cabecalho h1 {
+            font-family:'fontelogo', sans-serif;
+            font-size: 50pt;
+            color: orangered;
+            text-shadow: 1px 1px 1px rgba(0,0,0,-6);
+            padding: 0px;
+            margin-bottom: 0px; 
+
+
+          }
+          header#cabecalho h2 {
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 30pt;
+            color: orange;
+            padding: 5px;/*movimento para cima e para baixo, quanto mais menor vai para cima*/
+            margin-top: 5px;/*movimento para cima e para baixo, quanto mais menor vai para cima*/
+           
+                       
+
+          }
+        /* Formatação e imagens com legendas
+
+        figure.foto-legenda{
+         border: 1px solid white;
+         box-shadow: 1px 1px 4px black;
+        }
+        figure.foto-legenda img {
+           border-width: 100%;
+            height: 100%;
+            */
+
+          /*  figure.foto-legenda{
+                border: 1px solid white;
+                box-shadow: 1px 1px 4px black;
+               }
+               */
+               figure.foto-legenda img {
+                  border-top-width : 10%;
+                   height: 10%;
+                   border : 10px double red;
+               }
+
+/* FORMATAÇÃO DE Menu*/
+nav#menu {
+   display: block;
+}
+nav#menu ul {
+   list-style:""; /* ficou sem nada do lado do menu*/
+   text-transform: uppercase;/* as letras ficarem MAISUCULAS*/
+   position: absolute;
+   top: -20px; /*este comando é para o meu menu ficar bem no top da pagina*/
+   right: 100px;/*este comando é o menu ficar posicionado do lado direito da tela*/
+}
+
+nav#menu li {
+   display:inline-block; /* este comando permite ser exibido o menu na mesma linha*/
+   background-color: greenyellow;/* este comando permite ser exibido a cor de fundo do menu*/
+   padding: 10px; /*é o espaço dentro do objeto*/
+   margin: 15px;/*é o espaço entro um objeto e outro*/
+}
+ 
+nav#menu h1 {
+   display:none ;
+   
+   
+}
+
+nav#menu li:hover {
+   background-color:#f7064e; /*nest comando ele vai mdificar a cor só passando o mouse em cima*/
+}
+    section#corpo {
+       display: block;
+       width: 400px;
+       float: left;
+       border-right: 5px solid black; /*neste comando 1º é a largura da borda, 2º clareada da borda e 3º cor da borda*/
+       padding: 20px;
+       /*font-size: 25pt; ** tamanho da fonte da letra*/
+    }
+    article#noticia-principal h2 {
+       font-size: 12pt;
+       color: #606060;
+       background-color:#dddddd;
+       padding: 5px 0px 5px 10px;
+       margin: 10px 0px 10px 0px;
+
+    }
+
+    header#cabecalho-artigo h1 {
+       font-family: 'fontelogo', sans-serif;
+       font-size: 20pt;
+       color: #606060;
+       margin-bottom: 0px;
+       margin-top: 0px;
+
+    }
+    header#cabecalho-artigo h2 {
+       font-size: 13pt;
+       color: #cecece;
+       background-color: #ffffff;
+
+   }
+   header#cabecalho-artigo h3 {
+      font-size: 12px;
+       color: #606060;      
+
+   }
+   
+   .direita {
+
+      text-align: right;
+   }
+
+    table#tabelaespec {
+
+      border: 1px solid #606060;
+      border-spacing: 0px;/*para não haver espaços entre as margens*/
+      margin-left: auto;
+      margin-right: auto;
+    }          
+    table#tabelaespec td{
+   
+       border: 1px solid #606060;
+       padding: 10px; /*regula o espaço entre os objetos*/
+    }
+
+    table#tabelaespec td.ce {  /*este ponto significa 'classe que foi digitado lá no html*/
+      
+        color: white;
+        background-color: #606060;
+        vertical-align: top;
+        font-weight: bolder;
+    }   
+        table#tabelaespec caption {
+
+        color: #888888;
+        font-size: 15pt;
+        font-weight: bolder; 
+        }  
+        table#tabelaespec caption span {
+         display: block;  
+         color: #000000;
+         float: right;
+         font-size: 10pt;
+         margin-top: 10px;
+
+
+        }  
+
+    table#tabelaespec td.cd {  /*este ponto significa 'classe que foi digitado lá no html*/
+      background-color:#cecece;
+
+    }
+
+    
+    aside#lateral {
+      display: block;
+      width: 330px; /*neste comando quanto maior o numero ele se ditancia da borda*/
+      float: right;
+      background-color: #dddddd;
+      padding: 10px; /*este caso quanto menor o numero ele se distrancia da borda lateral*/
+      margin-top: 5pt; /*este caso quanto maior o numero o bloco se distancia da margem de cima*/
+
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, .5); /*sombras nas bordas*/
+
+      /*font-size: 25pt; ** tamanho da fonte da letra*/
+            
+   }
+
+   aside#lateral h1 {
+      font-family: 'Fontelogo', sans-serif;
+      font-size: 13pt;
+      color: #606060;
+      margin-top: 5pt;/*este caso quanto maior o numero o bloco se distancia da margem de cima*/
+
+
+   }
+
+   aside#lateral h2 {
+      background-color: #606060;
+      font-size: 13pt;
+      color: #ffffff;
+
+      
+   }
+
+    footer#rodape {
+       clear : both;
+       border-top: 5px solid black;  
+       text-align: center;
+                 
+       
+    }
+    footer#rodape h1 {
+      font-family: ariel;
+      color: orangered
+
+   }
+   footer#rodape p {
+      font-family: ariel;
+      font-weight: bold;
+
+      font-size: 15pt;
+
+   
+
+
+
+                   
+
+            
+            
+       
+   

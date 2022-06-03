@@ -1,0 +1,119 @@
+body {
+  /*  font-family: arial, sans-serif;
+    background-color: black; deste jeito o fundo fica todo preto */
+    background:url("https://images.vexels.com/media/users/3/222147/raw/da3de7b089120cbe4deadf427fa70b68-desenho-de-fundo-de-espigas-de-trigo.jpg?w=1800&fmt=webp")
+  
+ }
+ div#interface {
+    width: 800px; /*define a largura do site*/
+    /*background-color:darkgray ;cor de fundo do site da interface*/
+    margin: -410px 10px 10px 10px;
+    padding: 400px;
+ } 
+  #foto_logo { /* MEXEO COM LOGO DA MANA DIREITO*/
+ float: left;
+ padding-left: 150px;
+    width: 400px;
+    height: 350px;
+    margin-top: -7px;/* desse jeito quanto mais aumenta vai para cima*/
+  /*  border: 5px solid;*/
+  
+} 
+ #foto_logo_direito {  /*MEXE COM O LOGO DA MANA DO LADO DIREITO*/
+    float: right;
+       width: 350px;
+       height: 350px;
+       margin-top: -360px;/* desse jeito quanto mais aumenta vai para cima*/
+    /*   border: 5px solid;*/
+      
+
+}
+
+.mana_1 { /* mana_1 trabalha com o titulo NADIA PLACAS)*/
+    float: center;
+       width: 900px;
+       height: 350px;
+     margin-left: 360px;
+     margin-top: 80px; /* desse jeito quanto mais aumenta vai para cima*/
+    /* border: 5px solid black;*/
+     /*background-color: aquamarine;*/
+       /*   box-shadow: 1px 1px 3px rgba(0,0,0,.4);*/ 
+     text-align: center;
+     font-size: 30px;
+     color: black;
+    font-style: italic;
+
+}
+
+div.mana_1 h1  {
+    margin-right: 10px;
+    margin-top: 30px; 
+    font-style:oblique;  
+    background-color: red; 
+    color:beige;
+    font-weight: bolder;
+    display: inline;(este comando só ocupa o que esta escrito)
+        
+}
+
+#what.a {
+   
+  margin-right: 360px;
+  margin-bottom: -60px;  
+ 
+}
+ul {
+  list-style: none;
+  
+}
+img {
+  width: 40px;
+}
+input[type="checkbox"]
+{
+  display: none;    
+}
+
+nav {
+  background-color: rgba(16,16,16,.5);
+  width: 350px;
+  height: 100%;
+   left: -350px;
+   top: 125px; /*mexe com a altura da lista quanto menor sobe/ aumentao numero abaixa*/
+  position: absolute; 
+  transition: all .6s;
+  }
+ input[type="checkbox"]:checked ~ nav
+  { 
+       transform:translateX(350px);
+}
+ ul {
+  /* background-color: blue;*/
+    top: 70px; /* aqui quanto maior for o numero ele desce*/
+    position:absolute; /* tem um detalhe sem esse comando o top, button e jeft não funciona.. nao esqueca de incluir a position absolute*/
+    width: max-content; /*sombreamento fica do tamanho da letra*/
+}
+
+  a {   
+  display: block;
+  padding: 20px 5px; /*20px quer dizer o espaçamento entre um item e outro, 5px leva a margem para direta quanto maior o numero ele vai para direita** menor o numero move para esquerda*/
+  color:black;
+   list-style: inside;
+}
+
+  a:hover{
+  background-color:aqua;
+   color:black
+}
+label {  /*este daqui só mexe com o riscado do menu*/
+  padding: 10px;
+  top: 70px;
+  margin-left: 15px;
+  position: absolute;
+  z-index: 1;
+}
+ 
+  label h1:hover {/*este daqui só mexe com a palavra MENU*/
+    background-color:red;
+       
+  }
