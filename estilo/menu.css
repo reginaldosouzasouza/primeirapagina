@@ -17,7 +17,10 @@ a{
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background:url("https://images.vexels.com/media/users/3/222147/raw/da3de7b089120cbe4deadf427fa70b68-desenho-de-fundo-de-espigas-de-trigo.jpg?w=1800&fmt=webp")
+    /*background:url("../imagens/manaimg4.png") ;*/
+    background:url("https://images.vexels.com/media/users/3/222147/raw/da3de7b089120cbe4deadf427fa70b68-desenho-de-fundo-de-espigas-de-trigo.jpg?w=1800&fmt=webp");
+
+    overflow-x: hidden;
 
 
     /*menu com a lista começa aqui*/
@@ -79,23 +82,39 @@ label {  /*este daqui só mexe com o riscado do menu*/
       
   nav {
       
-    background-color:rgba(97, 163, 35, 0.555);
-    padding: 0px;
+    background-color:rgba(43, 43, 43, 0.514);
+    padding-right: 5px;
     box-shadow: 0px 7px 7px rgba(0,0,0.192);
     word-spacing: 350px;
+ 
+   
+
   
    
 }
  nav > a {
      color: white;
-     padding: 10px;
+     padding: 20px;
      text-decoration: none;
      font-weight: bolder;
      font-size: 1.5rem;
- 
+     text-align: center;
+    
  }
+    
+     nav  li {
+         display:inline-block;
+         
+         
+         
+    
+
+     }
+     
+ 
+ 
  nav > a:hover {
-     background-color: brown;
+    /* background-color: brown;*/
      color:var(--cor06);
      }
 
@@ -113,9 +132,9 @@ label {  /*este daqui só mexe com o riscado do menu*/
  
  header > h1 {
      
-   color: brown;
+   color:white;
    font-family: 'fontep2', Arial, Helvetica, sans-serif;
-    font-size: 8rem; /*letre mana tava 16rem vou deixar com 8*/
+    font-size: 4rem; /*letre mana tava 16rem vou deixar com 8*/
     margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
    /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
     
@@ -123,7 +142,7 @@ label {  /*este daqui só mexe com o riscado do menu*/
  header h2 {
      color:black;
      font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
    /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
@@ -132,7 +151,7 @@ label {  /*este daqui só mexe com o riscado do menu*/
  header h3 {
      color:black;
      font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
    /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
@@ -142,13 +161,13 @@ label {  /*este daqui só mexe com o riscado do menu*/
     color:brown;
      font-family: 'fontep2', Arial, Helvetica, sans-serif;
      font-style: italic;
-     font-size: 2rem;
+     font-size: 1rem;
      padding: 20px
     
  }
  header > p1 {
      color: rgb(6, 253, 200);
-     font-size: 3em;
+     font-size: 1.5em;
      font-weight: bolder;
  }
     
@@ -169,14 +188,14 @@ label {  /*este daqui só mexe com o riscado do menu*/
      }
          .contatos ul {
              font-family: Arial, Helvetica, sans-serif;
-         font-size: 2rem;
+         font-size: 1rem;
          font-weight: bolder;
          color:black;   
      }   
          .whatsmana a {
             
              font-family: Arial, Helvetica, sans-serif;
-             font-size: 2rem;
+             font-size: 1rem;
              font-weight: bolder;
              margin-top:30PX; 
              text-decoration:underline;
@@ -187,7 +206,14 @@ label {  /*este daqui só mexe com o riscado do menu*/
         clear : both;
         margin-top: 10%;
          text-align: center; 
-         background-color: aquamarine;
+         background-color: rgba(43, 43, 43, 0.514);
+
+              
+    }
+
+    footer#rodape a {
+        text-decoration:underline;
+        color:blue;
     }
 
      
