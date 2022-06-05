@@ -132,7 +132,7 @@ label {  /*este daqui só mexe com o riscado do menu*/
  
  header > h1 {
      
-   color:white;
+   color:brown;
    font-family: 'fontep2', Arial, Helvetica, sans-serif;
     font-size: 4rem; /*letre mana tava 16rem vou deixar com 8*/
     margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
