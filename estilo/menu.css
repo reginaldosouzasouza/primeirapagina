@@ -18,10 +18,19 @@ a{
 body {
     font-family: Arial, Helvetica, sans-serif;
     /*background:url("../imagens/manaimg4.png") ;*/
+  
     background:url("https://images.vexels.com/media/users/3/222147/raw/da3de7b089120cbe4deadf427fa70b68-desenho-de-fundo-de-espigas-de-trigo.jpg?w=1800&fmt=webp");
 
-    overflow-x: hidden;
+    
+    background-size: center center;
 
+    background-size: cover;
+
+    background-attachment: fixed; /*neste comando a tela de fundo não se movimenta*/
+
+ 
+
+   
 
     /*menu com a lista começa aqui*/
 }
@@ -75,6 +84,16 @@ label {  /*este daqui só mexe com o riscado do menu*/
     padding: 15px;
     position: absolute;
     z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-top: 200px;
+
+
+/*label {  /*este daqui só mexe com o riscado do menu
+    padding: 15px;
+    position: absolute;
+    z-index: 1;*/
 }
 
   /*menu com a lista TERMINA AQUI*/
@@ -82,10 +101,14 @@ label {  /*este daqui só mexe com o riscado do menu*/
       
   nav {
       
-    background-color:rgba(43, 43, 43, 0.514);
+    background-color: black;
     padding-right: 5px;
-    box-shadow: 0px 7px 7px rgba(0,0,0.192);
+   /* box-shadow: 0px 7px 7px rgba(0,0,0.192);*/
     word-spacing: 350px;
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
  
    
 
@@ -126,7 +149,7 @@ label {  /*este daqui só mexe com o riscado do menu*/
      padding-top: 0px; /*neste caso quando colocou o paadin ele se afastou do topo*/
      /*box-shadow: 0px 0px 10px rgba(0,0,0.705);  /*sombra dos lados*/
     /* border-radius: 10px; /* borda nos cantos arrendondados*/
- 
+    margin-top: 105px;
   }
  
  
@@ -134,7 +157,7 @@ label {  /*este daqui só mexe com o riscado do menu*/
      
    color:brown;
    font-family: 'fontep2', Arial, Helvetica, sans-serif;
-    font-size: 4rem; /*letre mana tava 16rem vou deixar com 8*/
+    font-size: 6rem; /*letre mana tava 16rem vou deixar com 8*/
     margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*/
    /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
     
