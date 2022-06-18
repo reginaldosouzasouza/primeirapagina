@@ -7,10 +7,47 @@
     <title> CARROSSEL - PÃES</title>
 
     <style>
+       @font-face {
+    font-family: 'fontep2';
+    src: url(./fontes/machiavelli/Machv2.ttf) format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
 * {
     padding: 0px;
     margin: 0px;
 }
+  body {
+    background:url("https://images.vexels.com/media/users/3/222147/raw/da3de7b089120cbe4deadf427fa70b68-desenho-de-fundo-de-espigas-de-trigo.jpg?w=1800&fmt=webp");
+  }
+
+  header {
+   margin: 0px;
+     text-align: center;
+    padding-top: 0px; /*neste caso quando colocou o paadin ele se afastou do topo*/
+    /*box-shadow: 0px 0px 10px rgba(0,0,0.705);  /*sombra dos lados*/
+   /* border-radius: 10px; /* borda nos cantos arrendondados*/
+
+ }
+
+
+header > h1 {
+    
+  color:brown;
+  font-family: 'fontep2', Arial, Helvetica, sans-serif;
+   font-size: 8rem; /*letra mana tava 16rem vou deixar com 8*/
+   margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*
+   /
+  /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
+   
+}
+
+   header > p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+   }
+
 
 .carrossel {
     width: 375px;
@@ -53,10 +90,25 @@
 
 
 }
+
+  section  h1 {
+    text-align: center;
+    color: black;
+    font-weight: bolder ;
+  }
     </style>
    
 </head>
 <body>
+  <header>
+  <h1>MANÁ</h1>
+  <h2>Panificadora e Confeitaria</h2>
+   <p> Venha conferir nossas variedades em PÃES</p>
+   <br>
+   <br>
+   </header>
+
+
   <div class="carrossel">
     <ul>
       <li>
@@ -77,6 +129,13 @@
 
     </ul>  
   </div>
+
+  <section>
+    <h1> SEGUE NOSSAS VARIEDADES DE PÃES 
+      APROVEITEM!!!
+
+    </h1>
+  </section>
 
 </body>
 </html>
