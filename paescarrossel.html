@@ -50,7 +50,7 @@ header > h1 {
 
 
 .carrossel {
-    width: 375px;
+    width: 400px;
     height: 250px;
    /* outline: 3px solid rgba(0, 0, 0, 0.801);*/
     margin: 50px auto;
@@ -67,29 +67,66 @@ header > h1 {
 
 .carrossel li {
     position: relative;
-    left: -375px;
+    left: -400px;
     animation: slide 15s infinite ease-out;
     
 }
+  .legenda {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+
+  }
 
 @keyframes slide {
     0% {left:0px}
-    20% {left:0px}
+    10% {left:0px}
 
-    30% { left: -375px}
-    50% { left: -375px}
+    20% { left: -370px}
+    30% { left: -370Px}
 
-    60% { left: -750px}
-    75%  { left: -750px}
+    40% { left: -740px}
+    50%  { left: -740px}
 
-    80% { left: -1000px}
-    90% { left: -1000px}
+    60% { left: -1110px}
+    70% { left: -1110px}
+   
+    80 { left: -1480px}
+    90% { left: -1480px} 
+
 
    100% {left:0px} 
 
 
 
 }
+   
+/* AQUI COMECA O ORIGINAL
+@keyframes slide {
+    0% {left:0px}
+    20% {left:0px}
+
+    30% { left: -370px}
+    50% { left: -370Px}
+
+    60% { left: -740px}
+    75%  { left: -740px}
+
+    80% { left: -1110px}
+    90% { left: -1110px}
+   
+    95% { left: -1480px}
+    99% { left: -1480px} 
+
+
+   100% {left:0px} 
+
+
+
+}
+   */
 
   section  h1 {
     text-align: center;
@@ -102,15 +139,46 @@ header > h1 {
 <body>
   <header>
   <h1>MANÁ</h1>
-  <h2>Panificadora e Confeitaria</h2>
-   <p> Venha conferir nossas variedades em PÃES</p>
-   <br>
-   <br>
-   </header>
+  <h2> Venha conferir nossas variedades em PÃES</h2>
+   <p> Faça seu pedido !!</p>
+   <a href="https://wa.me/5544998232526" target="_blank">
+    <img src="./imagens/whatsapp-grande.png" width="50" >
+    </a>
+  </header>
 
 
   <div class="carrossel">
     <ul>
+
+      <li>
+        <img src="./imagens/paocaseiro1_337_209.png">
+        <figcaption class="legenda">Pão caseiro de Milho</figcaption>
+      </li>
+
+      <li>
+        <img src="./imagens/paocaseiro1_337_209.png">
+        <figcaption class="legenda">Pão caseiro de Milho</figcaption>
+      </li>
+
+      <li>
+        <img src="./imagens/paocaseiro1_337_209.png">
+        <figcaption class="legenda">Pão caseiro de Milho</figcaption>
+      </li>
+
+      <li>
+        <img src="./imagens/paocaseiro1_337_209.png">
+        <figcaption class="legenda">Pão caseiro de Milho</figcaption>
+      </li>
+
+      <li>
+      <img src="./imagens/paocaseiro1_337_209.png">
+      <figcaption class="legenda">Pão caseiro de Milho</figcaption>
+    </li>
+
+    </ul>  
+  </div>
+
+      <!--AQUI COMECA O ORIGINAL 
       <li>
         <img src="./imagens/paocaseiro1_337_209.png">
       </li>
@@ -129,11 +197,10 @@ header > h1 {
 
     </ul>  
   </div>
-
+-->
   <section>
-    <h1> SEGUE NOSSAS VARIEDADES DE PÃES 
-      APROVEITEM!!!
-
+    <h1> TELEFONES: <br>
+       3034-5509 // 3025-5509 //  9 9709-0004     
     </h1>
   </section>
 
