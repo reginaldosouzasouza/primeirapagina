@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CARROSSEL - DOCES</title>
+
+    <style>
+       @font-face {
+    font-family: 'fontep2';
+    src: url(./fontes/machiavelli/Machv2.ttf) format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+  body {
+    background:url("https://images.vexels.com/media/users/3/222147/raw/da3de7b089120cbe4deadf427fa70b68-desenho-de-fundo-de-espigas-de-trigo.jpg?w=1800&fmt=webp");
+  }
+
+  header {
+   margin: 0px;
+     text-align: center;
+    padding-top: 0px; /*neste caso quando colocou o paadin ele se afastou do topo*/
+    /*box-shadow: 0px 0px 10px rgba(0,0,0.705);  /*sombra dos lados*/
+   /* border-radius: 10px; /* borda nos cantos arrendondados*/
+
+ }
+
+
+header > h1 {
+    
+  color:brown;
+  font-family: 'fontep2', Arial, Helvetica, sans-serif;
+   font-size: 8rem; /*letra mana tava 16rem vou deixar com 8*/
+   margin-bottom: 0px;/*neste caso quando colocou o margin-botton, esse h1 deu espaçamento arao p (abaixo)*
+   /
+  /*  text-shadow: 5px 5px 1px rgba(162, 238, 9, 0.582);*/
+   
+}
+
+   header > p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+   }
+
+
+.carrossel {
+    width: 400px;
+    height: 350px;
+   /* outline: 3px solid rgba(0, 0, 0, 0.801);*/
+    margin: 50px auto;
+    box-shadow: 20px 20px 35px 35px rgba(240, 3, 3, 0.884);
+   overflow: hidden;
+}
+
+.carrossel ul {
+    display: flex;
+    list-style: none;
+    width: 2000px;
+    height: 300px;
+}
+
+.carrossel li {
+    position: relative;
+    left: -400px;
+    animation: slide 15s infinite ease-out;
+    
+}
+  .legenda {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+
+  }
+
+@keyframes slide {
+    0% {left:0px}
+    10% {left:0px}
+
+    20% { left: -400px}
+    30% { left: -400Px}
+
+    40% { left: -800px}
+    50%  { left: -800px}
+
+    60% { left: -1200px}
+    70% { left: -1200px}
+   
+    80 { left: -1600px}
+    90% { left: -1600px} 
+
+
+   100% {left:0px} 
+
+
+
+}
+   
+
+
+  section  h1 {
+    text-align: center;
+    color: black;
+    font-weight: bolder ;
+  }
+    </style>
+   
+</head>
+<body>
+  <header>
+  <h1>MANÁ</h1>
+  <h2> Venha conferir nossas variedades DOCES</h2>
+   <p> Faça seu pedido !!</p>
+   <a href="https://wa.me/5544998232526" target="_blank">
+    <img src="./imagens/whatsapp-grande.png" width="50" >
+    </a>
+  </header>
+
+
+  <div class="carrossel">
+    <ul>
+
+      <li>
+        <img src="./fotos mana/bombamorango1x400.jpg">
+        <figcaption class="legenda">Pão caseiro de Milho &#x1F60B;</figcaption>
+      </li>
+
+      <li>
+        <img src="./fotos mana/bombamorango1x400.jpg">
+        <figcaption class="legenda">Pão caseiro de Milho &#x1F60B;</figcaption>
+      </li>
+
+      <li>
+        <img src="./fotos mana/bombamorango1x400.jpg">
+        <figcaption class="legenda">Pão caseiro de Milho &#x1F60B;</figcaption>
+      </li>
+
+      <li>
+        <img src="./fotos mana/bombamorango1x400.jpg">
+        <figcaption class="legenda">Pão caseiro de Milho &#x1F60B;</figcaption>
+      </li>
+
+      <li>
+      <img src="./fotos mana/bombamorango1x400.jpg">
+      <figcaption class="legenda">Pão caseiro de Milho &#x1F60B;</figcaption>
+    </li>
+
+    </ul>  
+  </div>
+
+      <!--AQUI COMECA O ORIGINAL 
+      <li>
+        <img src="./imagens/paocaseiro1_337_209.png">
+      </li>
+
+      <li>
+        <img src="./imagens/paocaseiro333_250.png">
+      </li>
+
+      <li>
+        <img src="./imagens/paocaseiro3_205_250.jpg">
+      </li>
+
+      <li>
+        <img src="./imagens/paofrances373_250.jpg">
+      </li>
+
+    </ul>  
+  </div>
+-->
+  <section>
+    <h1> TELEFONES: <br>
+       3034-5509 // 3025-5509 //  9 9709-0004     
+    </h1>
+  </section>
+
+</body>
+</html>
