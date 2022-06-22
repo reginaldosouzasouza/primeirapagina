@@ -10,6 +10,7 @@
 *{
     padding: 0px;
     margin: 0px;
+  
 }
 a{
     text-decoration: none;
@@ -46,8 +47,9 @@ input[type="checkbox"]
 }
 
 aside {
-    background-color:rgba(16, 16, 16, .8);
-    width: 350px;
+   
+    background-color:rgba(16, 16, 16, .8);/*nesta linha é a cor de fundo da lista*/
+    width: 250px;
     height: 100%;
      left: -350px;
     position: absolute; 
@@ -59,7 +61,7 @@ aside {
 }
   aside ul {
     /* background-color: blue;*/
-      top:60px; /* aqui quanto maior for o numero ele desce*/
+      top: 70px; /* aqui quanto maior for o numero ele desce*/
       position:absolute; /* tem um detalhe sem esse comando o top, button e jeft não funciona.. nao esqueca de incluir a position absolute*/
       width: 100%;
       right: -20px;
@@ -87,74 +89,22 @@ label {  /*este daqui só mexe com o riscado do menu*/
     position: fixed;
     top: 0px;
     width: 100%;
-    margin-top: 200px;
+    margin-top: 5px;
 
 
-/*label {  /*este daqui só mexe com o riscado do menu
-    padding: 15px;
-    position: absolute;
-    z-index: 1;*/
+
 }
 
-  /*menu com a lista TERMINA AQUI*/
-
-      
-  nav {
-      
-    background-color: black;
-    padding-right: 5px;
-   /* box-shadow: 0px 7px 7px rgba(0,0,0.192);*/
-    word-spacing: 350px;
-
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    margin-bottom: 50px;
- 
-   
-
-  
-   
-}
- nav > a {
-     color: white;
-     padding: 20px;
-     text-decoration: none;
-     font-weight: bolder;
-     font-size: 1.5rem;
-     text-align: center;
-    
- }
-    
-     nav  li {
-         display:inline-flex;
-         
-         
-         
-    
-
-     }
-     
- 
- 
- nav > a:hover {
-    /* background-color: brown;*/
-     color:var(--cor06);
-     }
-
-
-     
- header {
+  header {
     margin: 0px;
       text-align: center;
      padding-top: 0px; /*neste caso quando colocou o paadin ele se afastou do topo*/
      /*box-shadow: 0px 0px 10px rgba(0,0,0.705);  /*sombra dos lados*/
     /* border-radius: 10px; /* borda nos cantos arrendondados*/
-    margin-top: 55px;
+    margin-top: 50px;
   }
  
- 
- header > h1 {
+  header > h1 {
      
    color:brown;
    font-family: 'fontep2', Arial, Helvetica, sans-serif;
@@ -219,7 +169,7 @@ label {  /*este daqui só mexe com o riscado do menu*/
          .whatsmana a {
             
              font-family: Arial, Helvetica, sans-serif;
-             font-size: 1rem;
+             font-size: 2rem;
              font-weight: bolder;
              margin-top:30PX; 
              text-decoration:underline;
@@ -230,10 +180,25 @@ label {  /*este daqui só mexe com o riscado do menu*/
         clear : both;
         margin-top: 10%;
          text-align: center; 
-         background-color: rgba(43, 43, 43, 0.514);
+        /** background-color: rgba(43, 43, 43, 0.514);*/
+     }
+
+     footer#rodape h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+
+    }
+
+    footer#redesocial li {
+       display: inline-block;
+       padding: 25px;
+       
+    }
+
+   
 
               
-    }
+    
 
     footer#rodape a {
         text-decoration:underline;
