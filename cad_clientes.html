@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+        }
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(212, 223, 209);
+            padding: 15px;
+            border-radius: 15px;
+            font-weight: bolder;
+           
+        }    
+
+         legend {
+            text-align: center;
+            border: 1px solid black;
+           
+           
+           
+        }
+        fieldset {
+            border: 1px solid black;
+          margin-bottom: 5px;
+            border-radius: 15px;
+        } 
+        .inputUser {
+            letter-spacing: 1px;
+
+        }   
+ 
+        #observacao {
+            border: 30px solid rgb(154, 221, 46); 
+        }      
+        
+        #submit {
+        
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend> <b>Cadastro de Clientes </b> </legend>
+                <br>
+                <div class="inputBox">
+                    <label for="CPF">CPF / CNPJ: </label>
+                    <input type="text" id="CPF" class="inputUser" required>
+                   
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="nome">Cliente: </label>
+                    <input type="text" id="nome" class="inputUser" required>
+                  
+                </div>
+                <br>   
+                <div class="inputBox">
+                    <label for="dt_cadastro"> Dt. Cadastro: </label>
+                    <input type="date" id="dt_cadastro" class="inputUser" required>
+
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="nascimento">Dt.Nascimento: </label>
+                    <input type="date" id="nascimento" class="inputUser" required>
+                  
+                </div>
+                   
+               
+                <br>
+                <div class="inputBox">
+                    <label for="tel">Telefone: </label>
+                    <input type="tel" id="tel" class="inputUser" required>
+                    <label for="tel">          Celular:</label>
+                    <input type="tel" id="tel" class="inputUser" required>
+                  
+                </div>
+               
+                <br>
+                <div class="inputBox">
+                    <label for="CEP">CEP: </label>
+                    <input type="text" id="CEP" class="inputUser" required>
+                    <label for="Cidade">Cidade: </label>
+                    <input type="text" id="Cidade" class="inputUser" required>
+                   
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="Endereço">Endereço: </label>
+                    <input type="text" id="Endereço" class="inputUser" required>
+                    <label for="text"> Nº.: </label>
+                    <input type="numero" id="numero" class="inputUser" required>
+                  
+                </div>
+                <div class="inputBox">
+                    <label for="bairro">Bairro: </label>
+                    <input type="text" id="bairro" class="inputUser" required>
+
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="dt_ultima_venda">Dt.Ultima Venda: </label>
+                    <input type="date" id="dt_ultima_venda" class="inputUser" required>
+                  
+                </div>
+                   
+               
+                <br>
+            </fieldset>
+
+            <div class="box1">
+                <form action="">
+                    <fieldset>
+                       <!--<legend> </legend>-->
+                        <br>
+                        <div class="inputBox">
+                            <label for="Observacao">Observação:</label>
+                            <input type="text" id="observacao" class="inputUser" required>
+                           
+                        </div>
+                   
+                    </fieldset>  
+
+                    <input type="submit" name="submit" id="submit">  
+        </form>
+    </div>
+    
+</body>
+</html>
