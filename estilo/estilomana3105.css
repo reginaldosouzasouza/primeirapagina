@@ -125,6 +125,64 @@ header >.contatos {
         margin-top:30PX; 
     }
 
+    /*AQUI COMEÇO A TRABALHAR COM O MENU*/
+    img {
+        width: 40px;  
+        }
+    input[type="checkbox"]
+    {
+        display: none;    
+    }
+    label {  /*este daqui só mexe com o riscado do menu*/
+        padding: 15px;
+        position: absolute; 
+        z-index: 1;
+        margin-left: -330px;
+        top: 50px;
+    }
+
+    aside {
+       
+      /*  background-color: rgba(16,16,16,.5); /*esse cor é a transparencia que fica por cima da lista*/
+        width: 350px;
+        height: 100%;
+         left: -480px;
+        position: absolute; 
+        transition: all .6s;
+        
+       
+       
+        }
+       input[type="checkbox"]:checked ~ aside
+        { 
+             transform:translateX(350px);
+    }
+    aside > ul {
+        /* background-color: blue;*/
+          top: -570px; /* aqui quanto maior for o numero ele desce*/
+          position:absolute; /* tem um detalhe sem esse comando o top, button e jeft não funciona.. nao esqueca de incluir a position absolute*/
+          width: 100%;
+
+    }
+
+    aside > a{   
+        display: block;
+        padding: 0px; /*20px quer dizer o espaçamento entre um item e outro, 5px leva a margem para esquerda quanto maior o numero ele vai para esquerda*/
+        color:white;
+    }
+    
+    aside a:hover{
+        background-color: #848484;
+        color:black
+    }
+
+    footer#rodape {
+        clear : both;
+        margin-top: 10%;
+         text-align: center; 
+         background-color: aquamarine;
+    }
+
     @media screen and (max-width:480px) {
         body {
             max-width:480px;
@@ -150,5 +208,11 @@ header >.contatos {
           }
       }
      
-             
+      @media screen and (max-width:480px) {
+        aside {
+              max-width:480px;
+  
+  
+          }
+      }        
     

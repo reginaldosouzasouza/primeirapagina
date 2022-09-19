@@ -1,0 +1,59 @@
+body {
+   height: 2000px;
+   padding: 90px;/*Neste caso da espaçamento entre o topo e a digitação abaixo*/
+   background-color: rgb(245, 160, 3);
+}
+ 
+#menu_topo {
+    position: fixed;
+    top: 0;
+    left: 630px;
+    width: 90%;
+    height: 90px;
+    
+    
+    
+}
+#menu_img {
+    position:fixed;
+    top: 0;
+    right: 200px;    
+    padding: 80px;
+
+
+}
+ ul {
+     list-style: none;
+     display: flex; /*a lista fica um do lado do outro*/
+     align-items: center;
+    
+ }
+
+ li { /*neste campo mexe literalmente com a lista que esta no topo*/
+    /* margin-right: 30px; /*esta margen da espaçamnto entre os itens da lista
+     padding: 10px;*/
+     font-size: 2em;
+     display:inline-block; /* este comando permite ser exibido o menu na mesma linha*/
+     background-color: greenyellow;/* este comando permite ser exibido a cor de fundo do menu*/
+     padding: 0px; /*é o espaço dentro do objeto*/
+     margin: 15px;/*é o espaço entro um objeto e outro*/
+     font-weight: bolder; 
+     text-transform: uppercase;
+   
+ }
+     li:hover {
+        background-color:#f7064e; /*nest comando ele vai mdificar a cor só passando o mouse em cima*/ 
+     }
+    
+    
+ 
+  a{
+      color:black;
+      text-decoration: none; /*tira o traço da link*/
+  }
+  h1 {
+   margin-right: 10px;
+   padding-top: 300px;
+
+  }
+

@@ -1,0 +1,145 @@
+body {
+    font-family: arial, sans-serif;
+   /* background-color: black; deste jeito o fundo fica todo preto */
+    color: rgba(0,0,0,1);
+    background-color: olive;
+    
+    
+     
+ }
+ div#interface {
+    width: 800px; /*define a largura do site*/
+    /*background-color:darkgray ;cor de fundo do site da interface*/
+    margin: -410px 10px 10px 10px;
+    padding: 400px;
+ } 
+ #foto_logo { /* MEXEO COM LOGO DA NADIA PLACAS*/
+ float: left;
+    width: 350px;
+    height: 350px;
+    margin-top: -7px;/* desse jeito quanto mais aumenta vai para cima*/
+    border: 5px solid;
+    background-color: red;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+} 
+.nadia_1 { /* nadia 1 trabalha com o titulo NADIA PLACAS)*/
+    float: center;
+       width: 900px;
+       height: 350px;
+     margin-left: 360px;
+     margin-top: -17px; /* desse jeito quanto mais aumenta vai para cima*/
+     border: 5px solid black;
+     background-color: gray;
+          box-shadow: 1px 1px 3px rgba(0,0,0,.4); 
+     text-align: center;
+     font-size: 30px;
+     color:orange;
+    font-style: italic;   
+}
+.nadia_1 h2 {
+    text-decoration:dotted;
+   
+}
+
+div.nadia_1 h2 {
+    margin-right: 60px;
+    margin-top: 0px;        
+}
+
+#what {
+   
+  margin-right: 360px;
+  margin-bottom: -60px;  
+ 
+}
+.nadia_2 {  /* este nadia 2 mexe com nosso lema e a lista abaixo*/
+    float: center;
+       
+       width: 630px; /*deste jeito movimenta a largura para o lado direito, cada vez que aumenta o numero vai para direito*/
+       height: 350px;/* desse jeito aumenta o comprimento, cada vez que aumenta o numero vai para baixo.*/
+     margin-left: 1270px;
+     margin-top: -360px; /* desse jeito quanto mais aumenta vai para cima*/
+     border: 5px solid black;
+     background-color: gray;        
+     text-align: center;
+     font-size: 30px;
+     color:red;    
+     font-weight: bold 
+}
+
+    .descricao {   
+   
+    margin-left: 700px;   
+    
+}
+div.descricao img {   /*neste campo só movimenta com as fotos dos veiculos do lado direito*/
+   
+    margin-top: -1000px;/*quanto maior o numero for negativo, mais para cima fica*/
+    margin-left: 700px;/*quanto maior o numero for positivo, mais fica para direita*/
+   /* background-color: red;*/
+}
+
+div.descricao h1 {   
+    font-size: 70px;
+    color:#ffffff;
+    margin-left: -150px; /*quanto menor vai para direita*/
+   
+}   
+div.descricao p {   
+        font-size: 35px;
+        color:#ffffff;
+        margin-left: -150px; /*quanto menor for o numero negativo, mais vai para o lado direito*/   
+}
+div.descricao h2 {   
+    font-size: 50px;
+    color:yellow;
+    margin-left: -150px; /*quanto menor for o numero negativo, mais vai para o lado direito*/   
+}
+div.descricao h3 {   
+    font-size: 50px;
+    color:yellow;
+    margin-left: -150px; /*quanto menor for o numero negativo, mais vai para o lado direito*/   
+}
+.placas_fotos  {  /*quanto maior o numero for negativo, mais para cima fica*/
+
+    margin-top: -550px;
+}
+div.placas_fotos h1  {  /*quanto maior o numero for negativo, mais para cima fica*/
+
+    margin-left: 30px;
+}
+ .sobre {
+     margin-top: 150px;
+     text-align: center;
+ }
+div.sobre h1 {
+   color: red;
+   font-weight: bold;
+}
+
+
+footer#rodape {
+    clear : both;
+    margin-top: 10%;
+     text-align: center; 
+     background-color: aquamarine;     
+    
+  }
+  
+  footer#rodape h1 {
+   font-family: ariel;
+   color: orangered
+  
+  }
+  
+  footer#rodape p2 {
+      font-family: ariel;
+      font-weight: bold;
+      color:black 
+      font-size: 15pt;
+   }
+    img {
+      max-width: 480px;
+    }
+   }
+  
